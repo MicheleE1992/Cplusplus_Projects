@@ -75,6 +75,7 @@ int main() {
 	cout << rFunc3 << endl;
 
 	//Michele: Added 2.
+	//Alessio: Added 6
 	cout << endl;
 
 	auto rFunc4 = [rFunc3]() -> string { return "Welcome " + rFunc3; }(); //Lambda Capure Expression by  value = [rFunc3];
