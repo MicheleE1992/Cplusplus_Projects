@@ -88,11 +88,10 @@ int main() {
 	[=, &newInt](){ cout << "Welcome " << endl; newInt++; }(); //Lambda Capture Expression all local variables by value, but newInt by reference.
 															   //newInt2 can't be modified as it is read-only variable after passing by value
 	cout << newInt << endl;
-	//alessio_3: Changed 11
-	//alessio_3: Added 12
 	[&](){ cout << "Welcome " << endl; newInt++, newInt2++; }(); //Lambda Capture Expression all local variables by reference
 	cout << newInt << " " << newInt2 << endl;
-
+	//alessio_3: Changed 11
+	//alessio_3: Added 12
 	[&, newInt](){ cout << "Welcome " << endl; newInt2++; }(); //Lambda Capture Expression all local variables by value, but newInt by value.
 	cout << newInt << " " << newInt2 << endl;
 
