@@ -37,6 +37,7 @@ int main() {
 
 	//This is a comment
 	//this is another comment
+	//Comment n.3
 	auto func2 = [](int array[], int size)
 	{
 		/*
