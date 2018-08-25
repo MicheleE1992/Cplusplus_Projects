@@ -35,6 +35,8 @@ int main() {
 	cout << endl;
 	int array[] {1,2,3};
 
+	//This is a comment
+	//this is another comment
 	auto func2 = [](int array[], int size)
 	{
 		/*
