@@ -89,7 +89,7 @@ int main() {
 															   //newInt2 can't be modified as it is read-only variable after passing by value
 	cout << newInt << endl;
 	//Alessio, Master: Changed 9.
-	//Michele, Alessio, michele_2: Changed 8.
+	//Michele, Alessio, michele_2, alessio_2: Changed 10.
 	//alessio_2: Added 9
 
 
