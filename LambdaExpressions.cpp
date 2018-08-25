@@ -92,7 +92,8 @@ int main() {
 
 	[&](){ cout << "Welcome " << endl; newInt++, newInt2++; }(); //Lambda Capture Expression all local variables by reference
 	cout << newInt << " " << newInt2 << endl;
-
+	//alessio_3: Changed 11
+	//alessio_3: Added 12
 	[&, newInt](){ cout << "Welcome " << endl; newInt2++; }(); //Lambda Capture Expression all local variables by value, but newInt by value.
 	cout << newInt << " " << newInt2 << endl;
 
