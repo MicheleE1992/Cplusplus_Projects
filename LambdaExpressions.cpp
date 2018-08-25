@@ -89,8 +89,10 @@ int main() {
 															   //newInt2 can't be modified as it is read-only variable after passing by value
 	cout << newInt << endl;
 	//Alessio, Master: Changed 9.
+	//Alessio: Added 4
 	//Master: Changed 11
 	//Michele, Alessio, michele_2: Changed 8.
+	//alessio_2: Added 9
 
 	[&](){ cout << "Welcome " << endl; newInt++, newInt2++; }(); //Lambda Capture Expression all local variables by reference
 	cout << newInt << " " << newInt2 << endl;
