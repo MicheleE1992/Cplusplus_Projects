@@ -53,12 +53,10 @@ int main() {
 
 	};
 
+	//Michele: Added.
 
+	//Michele: Changed.
 
-	//Another row.
-	//First Branch Added.
-	//Merge.
-	//Master from Kubuntu.
 	//Number 1.
 
 	func2(array, 3);
