@@ -97,6 +97,8 @@ int main() {
 	[&, newInt](){ cout << "Welcome " << endl; newInt2++; }(); //Lambda Capture Expression all local variables by value, but newInt by value.
 	cout << newInt << " " << newInt2 << endl;
 
+	//master: Added 19
+
 	return 0;
 }
 
