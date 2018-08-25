@@ -36,8 +36,9 @@ int main() {
 	int array[] {1,2,3};
 
 	//This is a comment
-	//this is another comment
-	//Comment n.3
+
+	//Comment n.X
+	//Comment n.4
 	auto func2 = [](int array[], int size)
 	{
 		/*
@@ -51,6 +52,7 @@ int main() {
 		}
 
 	};
+	//Comment n.5
 
 	func2(array, 3);
 	cout << endl;
