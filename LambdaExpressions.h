@@ -11,5 +11,6 @@
 
 int getNumber(int &n);
 int getNumber2(int &n);
+int getNumber3(int &n);
 
 #endif /* LAMBDAEXPRESSIONS_H_ */
