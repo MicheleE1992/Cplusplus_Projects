@@ -10,5 +10,6 @@
 
 
 int getNumber(int &n);
+int getNumber2(int &n);
 
 #endif /* LAMBDAEXPRESSIONS_H_ */
