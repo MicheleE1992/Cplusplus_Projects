@@ -52,7 +52,10 @@ int main() {
 		}
 
 	};
-	//Comment n.5
+
+
+
+	//Another row.
 
 	func2(array, 3);
 	cout << endl;
